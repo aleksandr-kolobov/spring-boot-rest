@@ -8,6 +8,6 @@ spring:
     datasource:
         url: jdbc:postgresql://localhost:5432/webshop
         username: postgres
-        password: testtest
+        password: ********
 #logging.level.root: DEBUG
 
