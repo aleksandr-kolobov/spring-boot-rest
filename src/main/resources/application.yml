@@ -1,0 +1,13 @@
+#server.port: 8082
+app:
+    check-client-api-key-in-header: false
+    client-api-key: 12345
+spring:
+    jpa:
+        generate-ddl: true
+    datasource:
+        url: jdbc:postgresql://localhost:5432/webshop
+        username: postgres
+        password: testtest
+#logging.level.root: DEBUG
+
